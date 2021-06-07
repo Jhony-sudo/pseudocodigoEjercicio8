@@ -1,0 +1,15 @@
+Algoritmo Ej8
+	Hacer
+		Escribir "A. Generar multiplo de 5"
+		Escribir "S. Salir"
+		Leer Eleccion
+		Si Eleccion = "A"
+			Para i =1 hasta 15 Con Paso 1 
+				Num = Aleatorio(1,100)
+				Mulit = Num * 5
+				Escribir Mulit
+			FinPara
+		FinSi
+	Hasta Que Eleccion = "S"
+	
+FinAlgoritmo
